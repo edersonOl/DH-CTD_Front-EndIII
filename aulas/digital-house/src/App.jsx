@@ -1,9 +1,13 @@
+import { SegundaAula } from './lessons/SegundaAula'
+import { Login } from './pages/Login'
+
+
 function App() {
 
-  return (
-    <div></div>
-  )
-  
+    return (
+    //        <Login />
+            <SegundaAula />
+    )
 }
 
 export default App
