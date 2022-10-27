@@ -28,7 +28,7 @@ export function TerceiraAula() {
             <h1>Lista de componentes</h1>
             <ul>
                 {
-                    components.map(component => (
+                    componentsList.map(component => (
                         <li>
                             <img src={component.image} alt=""/>
                             <h1>{component.name}</h1>

@@ -6,7 +6,7 @@ import { TerceiraAula } from './lessons/TerceiraAula'
 function App() {
 
     return (
-            <TerceiraAula />
+            <TerceiraAula/>
     )
 }
 
