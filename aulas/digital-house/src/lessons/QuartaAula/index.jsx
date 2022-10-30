@@ -3,7 +3,7 @@ import iron_man from './../../assets/images/iron_man.webp'
 import hulk from './../../assets/images/hulk.webp'
 import viuva_negra from './../../assets/images/viuva_negra.webp'
 
-export function TerceiraAula() {
+export function QuartaAula() {
 
     const componentsList= [
         {
@@ -24,9 +24,11 @@ export function TerceiraAula() {
     ]
 
     return (
-        <div>
-            <h1>Lista de componentes</h1>
-            <ul>
+        <div className='quarta-aula-component'>
+            <h1 className='main-title'>Componentes identificados</h1>
+
+            <ul className='components-finded'>
+
                 {
                     componentsList.map(component => (
                         <li>
